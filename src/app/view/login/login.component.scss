@@ -1,0 +1,34 @@
+::ng-deep{
+    .p-button.p-button-secondary, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
+      color: #ffffff;
+      background: black;
+      border: 1px solid #64748B;
+  }
+}
+
+.headerleft{
+  padding-top: 2rem;
+  text-align: right;
+}
+
+.headerleft > label{
+  color: #052C65;
+  font-size: 3rem;
+  padding: 3px;
+}
+
+.headerRight{
+  padding-top: 2rem;
+  color: white;
+}
+
+.headerRight > label{
+  font-size: 3rem;
+  padding: 3px;
+}
+
+.registerhere{
+  position: relative;
+    top: -10px;
+    left: 50px;
+}

@@ -1,0 +1,42 @@
+
+<div class="col-12" style="background-color: #FFFFFF; height: 100%; width: 50%; float: left;">
+    <div class="headerleft">
+      <label>W</label>
+      <label>a</label>
+      <label>r</label>
+      <label>e</label>
+    </div>
+
+
+  <div style="padding : 10% 0 0 20%;" class="col-12">
+      <form [formGroup]="Formlogin">
+        <div class="col-12">
+          <label for="username">User Name</label><br><br>
+          <input style="width: 70%;" id="username" type="text" pInputText formControlName="username"/>
+        </div>
+        <div class="col-12">
+          <label for="password">Password</label><br><br>
+          <input style="width: 70%;" id="password" type="text" pInputText formControlName="password"/>
+        </div>
+        <div class="col-12">
+          <p-button  (click)="Onsubmit()"  label="Login" styleClass="p-button-raised p-button-secondary"></p-button>
+          <a href="#" class="registerhere" for="">Register Here</a>
+        </div>
+      </form>
+  </div>
+
+</div>
+
+<div class="col-12"  style="background-color: #052C65; height: 100%; width: 50%; float: left;">
+
+  <div class="headerRight">
+    <label>H</label>
+    <label>o</label>
+    <label>u</label>
+    <label>s</label>
+    <label>e</label>
+  </div>
+
+
+</div>
+
